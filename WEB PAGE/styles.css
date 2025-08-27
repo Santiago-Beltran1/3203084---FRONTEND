@@ -32,7 +32,6 @@
 
 .container h2 {
     text-align: center;
-    text-shadow: 5px 5px 5px blue;
 }
 
 .row {
@@ -40,3 +39,19 @@
 
 }
 
+.pricing {
+    transition: transform 0.3s;
+}
+
+.pricing:hover{
+    transform: scale(1.05);
+} 
+.rec{
+    border: none;
+    border-left: 4px solid blue;
+    height: 100%;
+    background-color: ghostwhite;
+}
+.qn{
+    height: 100%;
+}
